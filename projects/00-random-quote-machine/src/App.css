@@ -5,7 +5,8 @@
 }
 
 #quote-box {
-  width: 600px;
+  margin: 0 auto;
+  width: 60%;
   height: fit-content;
   justify-content: center;
   place-content: center;
