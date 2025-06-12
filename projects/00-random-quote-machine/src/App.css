@@ -1,0 +1,45 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#quote-box {
+  width: 600px;
+  height: fit-content;
+  justify-content: center;
+  place-content: center;
+  border-radius: 2%;
+  background-color: #fff;
+  padding: 10px;
+  box-shadow: 1px 1px 1px #fff;
+}
+
+#text {
+  font-size: 30px;
+}
+
+#text::before {
+  content: "“";
+}
+
+#text::after {
+  content: "”";
+}
+
+#author {
+  font-size: 20px;
+  text-align: right;
+  margin-right: 40px;
+}
+
+#author::before {
+  content: "- ";
+}
+
+button {
+  color: black;
+  margin: 10px;
+  place-content: center;
+  width: fit-content;
+}
